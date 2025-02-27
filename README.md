@@ -3,8 +3,8 @@ a simple heart beat calculator using raspberrypi B model and max30102 sensor.<br
 # Files
 Includes max30102.py file which set ups the sensor and I took it from (https://github.com/vrano714/max30102-tutorial-raspberrypi).<br/>
 It had some issues and I corrected them.<br/>
-Includes a heart_beat_calc.py file which take data from sensor.<br/>
-Inclueds a heart.py file which calculates the heart beat.<br/>
+Includes a heart_beat_calc.py file which calculates the heart beat.<br/>
+main file is heart.py which combines supporting files.<br/>
 This code will  take some time to get a reading because I follwed a method of taking mean from several readings.<br/>
 since this sensor is very sensitive you have to keep your finger steady while taking readings.<br/>
 # Connecting sensor to the raspberry pi :<br/>
